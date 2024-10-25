@@ -5,11 +5,96 @@
     <title>Nolan Aguirre</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic">
-    <link rel="stylesheet" href="css.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1, h2, p {
+            margin: 0;
+        }
+
+        html {
+            font-family: 'PT Serif', Georgia, serif;
+            font-size: 16px;
+        }
+
+        body {
+            max-width: 60em;
+            margin: 2em auto 0 auto;
+            padding: 0 1em;
+        }
+
+        body header {
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding: 0 0.5em;
+        }
+
+        body header h1 {
+            display: inline-block;
+        }
+
+        body header aside {
+            display: inline-block;
+            text-align: right;
+            position: absolute;
+            right: 0.5em;
+            line-height: 2em;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        main {
+            margin: 1em 0.5em;
+        }
+
+        main section {
+            margin-bottom: 1em;
+        }
+
+        main section aside {
+            float: left;
+            max-width: 7em;
+            margin-right: 1em;
+        }
+
+        main section .content {
+            margin-left: 7.5em;
+        }
+
+        main section .entries {
+            margin-left: 2em;
+        }
+
+        .entry {
+            height: 1.5em;
+        }
+
+        .entry>div:first-child {
+            float: left;
+        }
+
+        .entry>div:last-child {
+            float: right;
+            font-style: italic;
+            text-align: right;
+        }
+
+        @media print {
+            html {
+                font-size: 12pt;
+            }
+        }
+    </style>
     <header>
         <h1>Nolan Aguirre</h1>
         <aside>
@@ -25,8 +110,8 @@
             </aside>
             <div class="content">
                 <p>
-                    Freelance Web Developer from Austin, TX.
-                    <br> Emphasizes code readablity and maintainability above all else.
+                    Freelance Full stack developer from Austin, TX.
+                    <br> Emphasizes modular, composable style programming.
                     <br> Strong work ethic and a love for programming.
                 </p>
             </div>
@@ -41,41 +126,89 @@
                     <h2>Languages</h2>
                 </aside>
                 <div class="content">
-                    <p>JavaScript HTML CSS Java Python Unity Unity VR Postgres</p>
+                    <p>JavaScript, HTML, CSS, Java, Python, C#, C++, SQL, Shell (bourne), Solidity, OCamel</p>
                 </div>
                 <aside>
-                    <h2>Frameworks</h2>
+                    <h2>Technologies</h2>
                 </aside>
                 <div class="content">
-                    <p>AngularJS Node/Express Graphql React Fero Cheerio</p>
+                    <p>
+						Git, Linux,
+						AWS, Heroku,
+						Ethereum, Tezos, Blockchain, 
+						AI content generation, AI model training,
+						Meta-programming, multi-tenant systems
+					</p>
                 </div>
-                <aside>
-                    <h2>Other</h2>
+				<aside>
+                    <h2>Other skills</h2>
                 </aside>
                 <div class="content">
-                    <p>Git Github Linux AWS Heroku REST & Graphql Ethereum Tezos</p>
-                </div>
+                    <p>
+						Business Operations/Management,
+						3d modeling,
+						Game design/development,
+						Fishing
+					</p>
+                </div>				
             </div>
         </section>
 
         <section>
             <h2>Experience</h2>
             <br>
+            <div class="entries">
+                <div class="entry">
+                    <div>
+                        <b>Co-founder, </b> JNLabs / AIPOP
+                    </div>
+
+                    <div>May 2024  &mdash; Preset</div>
+                </div>
+
+                <ul>
+                    <li>Architected and implemented AI content generation workflows through the Line app with the goal to improve the accessibility of AI tools in Taiwan.</li>
+                    <li>Manage and execute tech related tasks in operation of the company, resulting in the acquisition of hundred of users per week, and enrollment into a Taiwanese based accelerator.</li>
+                    <li>Brainstorm with founders about the direction of the company and market opportunity to adjust as needed to provide a compelling product.</li>
+                </ul>
+            </div>
 
             <div class="entries">
                 <div class="entry">
                     <div>
-                        <b>Software developer, </b> SeriesX
+                        <b>Full Stack Software developer, </b> Vertalo
                     </div>
 
                     <div>April 2019 &mdash; Preset</div>
                 </div>
 
                 <ul>
-                    <li>Design system architecture, database and front end.</li>
-                    <li>Implement highly specialized services to meet businesses and performance requirements.</li>
-                    <li>Facilitate 3rd party integrations with robuse data flows.</li>
-                    <li>Write portable smart contracts accross multiple blockchains.</li>
+					<li>Architect and implement a robust system for asset management in private markets, showcasing technical innovation and directly contributed to securing $10+ million in funding.</li>
+                    <li>
+                        Design and implement the full stack to support each of the following:
+                        Securities on Blockchain, 
+                        Securities trading, 
+                        Securities TA Operation, 
+                        Compliant private investment onboarding, 
+                        Consumer facing investment portfolios
+                    </li>
+                    <li>Implement and integrate multiple industry providers, including Docusign (E-signing), North capital (payment and escrow) and TZero (ATS) to create an end-to-end investment experience.</li>
+                    <li>Interview, onboard and collaborate developers as the business expands.</li>
+                </ul>
+            </div>
+
+			<div class="entries">
+                <div class="entry">
+                    <div>
+                        <b>Small business consultant, </b> MZMPerformance
+                    </div>
+
+                    <div>August 2024  &mdash; October 2024</div>
+                </div>
+
+                <ul>
+                    <li>Advise mechanic shop on various topics including employee hiring, existing client management and exit/transition strategy.</li>
+                    <li>Facilitate meetings to create and execute transition/growth plan that allow the owner to transition ownership of the company.</li>
                 </ul>
             </div>
 
@@ -91,22 +224,6 @@
                 <ul>
                     <li>Integrate payment processing into existing wordpress website.</li>
                     <li>Improve and simplify website layout.</li>
-                </ul>
-            </div>
-
-            <div class="entries">
-                <div class="entry">
-                    <div>
-                        <b>Full Stack web developer, </b> Fun 2 Learn Code
-                    </div>
-
-                    <div>August 2018 &mdash; March 2019</div>
-                </div>
-
-                <ul>
-                    <li>Design, create and deploy the company's website front end using React and my own Graphql caching library.</li>
-                    <li>Design, create and deploy the company's website back end using Graphql, express and postgres.</li>
-                    <li>Write tests and automate deployment to AWS.</li>
                 </ul>
             </div>
 
@@ -143,7 +260,6 @@
                     <li>App developer: Create in house tools to improve accessibility of classes.</li>
                     <li>Github person: manage migration of curriculum from paper to digital through Github.</li>
                 </ul>
-
             </div>
         </section>
     </main>
