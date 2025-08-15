@@ -20,7 +20,7 @@
 
         html {
             font-family: 'PT Serif', Georgia, serif;
-            font-size: 16px;
+            font-size: 14px;
         }
 
         body {
@@ -48,6 +48,11 @@
             bottom: 0;
             width: 100%;
         }
+        .skill-row {
+            float: left;
+            max-width: 8em;
+            margin-right: 1em;
+        }
 
         h2 {
             font-size: 1em;
@@ -63,12 +68,15 @@
 
         main section aside {
             float: left;
-            max-width: 7em;
+            max-width: 8em;
             margin-right: 1em;
+            font-size: .9rem;
         }
 
         main section .content {
-            margin-left: 7.5em;
+            margin-left: 160px;
+            font-size: .9rem;
+
         }
 
         main section .entries {
@@ -94,6 +102,26 @@
                 font-size: 12pt;
             }
         }
+
+        .sidebar-skill {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-skill h2 {
+    flex: 0 0 160px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.sidebar-skill p {
+  margin: 0;
+  flex: 1;
+}
+
+
     </style>
     <header>
         <h1>Nolan Aguirre</h1>
@@ -106,54 +134,25 @@
     <main>
         <section>
             <aside>
-                <h2>Introduction</h2>
+                <h1>Introduction</h1>
             </aside>
             <div class="content">
                 <p>
-                    Full stack developer from Austin, TX.
-                    <br> Emphasizes modular, composable style programming.
-                    <br> Strong work ethic and a love for programming.
+                    Full-stack systems engineer from Austin, TX.<br>
+                    Specializes in modular, composable architectures with deep experience across backend, infrastructure, and frontend.<br>
+                    Proven track record of building secure, high-scale, multi-tenant platforms from the ground up. <br>
+                    Thrive in early-stage environments by breaking ambiguity into core problems and delivering flexible, evolving systems
                 </p>
             </div>
         </section>
 
-        <section>
-            <aside>
-                <h2>Skills</h2>
-            </aside>
-            <div class="content">
-                <aside>
-                    <h2>Languages</h2>
-                </aside>
-                <div class="content">
-                    <p>JavaScript, Postgresql, SQL, HTML, CSS, Java, Python, C#, C++, Shell, Solidity, OCamel, Go</p>
-                </div>
-                <aside>
-                    <h2>Technologies</h2>
-                </aside>
-                <div class="content">
-                    <p>
-						Git, Linux, Postgresql,
-						AWS, Heroku,
-						Ethereum, Tezos, Blockchain, 
-						AI content generation, AI model training,
-						Meta-programming, multi-tenant systems
-					</p>
-                </div>
-				<aside>
-                    <h2>Other skills</h2>
-                </aside>
-                <div class="content">
-                    <p>
-						Business Operations/Management,
-						3d modeling,
-						Game design/development,
-						Fishing
-					</p>
-                </div>				
-            </div>
-        </section>
-
+        <div class="sidebar-skill"><h2>Languages & Tools:</h2><p>JavaScript, SQL,  Shell, TypeScript, Python, Solidity, OCaml, HTML, CSS</p></div>
+        <div class="sidebar-skill"><h2>Frameworks & APIs:</h2><p>React, GraphQL, REST, WebSockets, UDP</p></div>
+        <div class="sidebar-skill"><h2>Databases:</h2><p>PostgreSQL, SQLite, MongoDB, memcached</p></div>
+        <div class="sidebar-skill"><h2>Infra & DevOps:</h2><p>AWS, Linux, Git, Heroku, DNS, SSH, Unix user permissions, Terraform, Docker</p></div>
+        <div class="sidebar-skill"><h2>Security:</h2><p>OAuth2, JWT, field-level encryption, RBAC, SSH</p></div>
+        <div class="sidebar-skill"><h2>Blockchain:</h2><p>Ethereum, Tezos, Aptos</p></div>
+        <br>
         <section>
             <h2>Experience</h2>
             <br>
@@ -163,14 +162,15 @@
                         <b>Co-founder, </b> JNLabs
                     </div>
 
-                    <div>May 2024  &mdash; Present</div>
+                    <div>May 2024  &mdash; May 2025</div>
                 </div>
+                <div>Formed to identify and test early-stage product opportunities in the AI space.</div>
 
                 <ul>
                     <li>Collaborate closely with founders to identify and strategize AI-driven market opportunities, focusing on product discovery and user engagement.</li>
                     <li>Rapidly prototype and launch AI projects to assess real-world user interest, enabling data-driven insights and informed product decisions.</li>
                     <li>Oversee and execute essential tech operations for seamless company functionality, ensuring efficient project delivery and performance.</li>
-                    <li>Developed AIPOP, an innovative AI music generation app for the Taiwanese market, integrated within LINE, providing unique, accessible music experiences.</li>
+                    <li>Developed AIPOP, a Nodejs based AI music generation app for the Taiwanese market, integrated within LINE, providing unique, accessible music experiences.</li>
                     <li>Initiated viability testing for an AI-powered front desk tool designed to optimize operations within auto shops, enhancing service efficiency and customer interaction.</li>
                 </ul>
             </div>
@@ -178,68 +178,27 @@
             <div class="entries">
                 <div class="entry">
                     <div>
-                        <b>Full Stack Software developer, </b> Vertalo
+                        <b>Founding engineer, </b> Vertalo
                     </div>
 
-                    <div>April 2019 &mdash; Present</div>
+                    <div>April 2019 &mdash; July 2025</div>
+                    
                 </div>
 
-                <ul>
-					<li>Architected and implemented a cutting-edge asset management system for private markets, driving technical innovation and contributing directly to securing over $10 million in funding.</li>
-
-<li>Designed and developed full-stack solutions for critical functions, including Securities on Blockchain, Securities Trading, TA Operations, Private Investment Onboarding, and Consumer Investment Portfolios, creating a seamless investment ecosystem.</li>
-
-<li>Integrated multiple industry-leading providers—Docusign for e-signing, North Capital for payment and escrow, and TZero for ATS—into a streamlined, end-to-end investment experience.</li>
-
-<li>Interviewed, onboarded, and collaborated with developers, fostering a scalibe and skilled team as the business expanded.</li>
-                </ul>
-            </div>
-
-			<div class="entries">
-                <div class="entry">
-                    <div>
-                        <b>Small business consultant, </b> MZMPerformance
-                    </div>
-
-                    <div>August 2024  &mdash; October 2024</div>
-                </div>
+                <div> Fintech platform for private asset management; 100k+ investors in SEC-regulated private securities.</div>
 
                 <ul>
-                    <li>Advise mechanic shop on various topics including employee hiring, existing client management and exit/transition strategy.</li>
-                    <li>Facilitate meetings to create and execute transition/growth plan that allow the owner to transition ownership of the company.</li>
+                    <li>Led architecture and implementation of a secure, multi-tenant financial platform spanning backend, frontend, infrastructure, and blockchain integration</li>
+                    <li>Built a modular system around a double-entry ledger with full audit tracking (who, when, what), powering all state transitions and financial events</li>
+                    <li>Designed a general-purpose event queue with ordered, replayable, write-once semantics; paired with an event reconciliation system to safely convert external triggers (e.g., account claim tokens, blockchain actions) into in-platform effects</li>
+                    <li>Developed role-based APIs for investors, asset managers, administrators, ATS platforms, and agents; enabled inter-role sharing and RBAC tiering (viewer/admin/owner) across all surfaces</li>
+                    <li>Built a graph-based onboarding engine with reusable qualifications, OR-logic prerequisites, single-use gating, and per-manager schema-driven form customization</li>
+                    <li>Integrated with third-party platforms using OAuth and client-provided API keys, including DocuSign, North Capital, Coinbase, Netki (KYC) and Investready(AML)</li>
+                    <li>Deployed smart contracts in Solidity (Ethereum) and OCaml (Tezos); built a 500M+ record Ethereum block indexer and versioned parser system for contract data</li>
+                    <li>Operate per-developer environments, a sandbox, and two test in house test frameworks.</li>
+                    <li>Implemented field-level encryption, soft-delete policies, full historical audit logging, a built-in dead letter queue with human alerting, and automated schema migration via Sqitch</li>
+                    <li>Built internal tooling for logging, notification dispatch, email alerts, admin overrides, and multi-db sync (core system ↔ blockchain)</li>
                 </ul>
-            </div>
-
-            <div class="entries">
-                <div class="entry">
-                    <div>
-                        <b>Wordpress Consultant, </b> handcraftsports.com
-                    </div>
-
-                    <div>January 2019 &mdash; February 2019</div>
-                </div>
-
-                <ul>
-                    <li>Integrate payment processing into existing wordpress website.</li>
-                    <li>Improve and simplify website layout.</li>
-                </ul>
-            </div>
-
-            <div class="entries">
-                <div class="entry">
-                    <div>
-                        <b>Contractor, </b> Mothership books and games
-                    </div>
-
-                    <div>November 2017 &mdash; August 2018</div>
-                </div>
-
-                <ul>
-                    <li>Create an MTG card inventory system's front, and back end using Graphql and Angular.js.</li>
-                    <li>Create a distributed web scraping price api using Node.js, Fero and Cheerio.</li>
-                    <li>Deploy and maintain all systems involved.</li>
-                </ul>
-
             </div>
 
             <div class="entries">
@@ -247,15 +206,14 @@
                     <div>
                         <b>Software Developer, </b> Fun 2 Learn Code
                     </div>
-
                     <div>April 2017 &mdash; March 2019</div>
                 </div>
-
+                <div> K-12 summer and after school classes teaching kids how to type, program and make games.</div>
+                
                 <ul>
-                    Fufill several roles such as:
                     <li>Instructor: Lead classes of 4-10 on various programming topics, and provide 1-on-1 tutoring.</li>
                     <li>Curriculum writer: Write programs in various language and document step by step instructions.</li>
-                    <li>App developer: Create in house tools to improve accessibility of classes, including a GUI based minecraft modding tool.</li>
+                    <li>App developer: Create in house tools in Java to improve accessibility of classes, including a GUI based minecraft modding tool with supporting Nodejs services.</li>
                     <li>Wiki Gardener: manage migration of curriculum from paper to digital through Github.</li>
                 </ul>
             </div>
@@ -264,4 +222,3 @@
 </body>
 
 </html>
-
